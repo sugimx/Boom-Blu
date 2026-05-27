@@ -59,7 +59,7 @@ export default function FaqAccordion() {
             Frequently Asked Questions
           </h2>
           <p className="max-w-md mx-auto leading-6 text-gray-500 dark:text-gray-400">
-            Got questions about Boom Blu? We've answered the most common ones below. Still have questions? Contact us anytime.
+            Got questions about Boom Blu? We&apos;ve answered the most common ones below. Still have questions? Contact us anytime.
           </p>
         </div>
         <div className="max-w-[600px] mx-auto">
