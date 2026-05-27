@@ -1,4 +1,4 @@
-export const navItems = [
+export const navItems: NavItem[] = [
   {
     type: 'link',
     href: '/#',
@@ -29,7 +29,7 @@ export const navItems = [
     label: 'Contact',
     href: '/contact',
   },
-] satisfies NavItem[];
+];
 
 type NavItem =
   | {
