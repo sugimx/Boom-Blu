@@ -39,5 +39,6 @@ type NavItem = Record<string, string | unknown> &
       }
     | {
         type: 'dropdown';
+        items: Array<{ href: string; label: string }>;
       }
   );
