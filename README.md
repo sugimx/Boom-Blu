@@ -60,7 +60,7 @@ For dealership, distribution, wholesale, and business inquiries:
 
 ## 📄 License
 
-This project is licensed under the MIT License - see LICENSE file for details.
+This project is licensed under the MIT License
 
 ---
 
