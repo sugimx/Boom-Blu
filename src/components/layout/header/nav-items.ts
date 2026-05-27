@@ -31,14 +31,14 @@ export const navItems = [
   },
 ] satisfies NavItem[];
 
-type NavItem = Record<string, string | unknown> &
-  (
-    | {
-        type: 'link';
-        href: string;
-      }
-    | {
-        type: 'dropdown';
-        items: Array<{ href: string; label: string }>;
-      }
-  );
+type NavItem =
+  | {
+      type: 'link';
+      href: string;
+      label: string;
+    }
+  | {
+      type: 'dropdown';
+      label: string;
+      items: Array<{ href: string; label: string }>;
+    };
