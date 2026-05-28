@@ -19,7 +19,7 @@ export default function ReturnsPage() {
               <section>
                 <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">Return Policy</h2>
                 <p>
-                  We stand behind the quality of Boom Blu washing liquid. If you're not completely satisfied, we offer hassle-free returns within 30 days of purchase.
+                  We stand behind the quality of Boom Blu washing liquid. If you&apos;re not completely satisfied, we offer hassle-free returns within 30 days of purchase.
                 </p>
               </section>
 
@@ -40,7 +40,7 @@ export default function ReturnsPage() {
                   <li>Contact our customer support team with your order details</li>
                   <li>Receive a return authorization and return label</li>
                   <li>Ship the product back to us in its original packaging</li>
-                  <li>We'll inspect and process your return within 5-7 business days</li>
+                  <li>We&apos;ll inspect and process your return within 5-7 business days</li>
                   <li>Refund will be issued to your original payment method</li>
                 </ol>
               </section>
@@ -60,7 +60,7 @@ export default function ReturnsPage() {
               <section>
                 <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">Defective Products</h2>
                 <p>
-                  If you receive a defective product, please contact us immediately with photos of the damage. We'll replace the product or issue a full refund at no cost to you.
+                  If you receive a defective product, please contact us immediately with photos of the damage. We&apos;ll replace the product or issue a full refund at no cost to you.
                 </p>
               </section>
 
@@ -83,7 +83,7 @@ export default function ReturnsPage() {
               <section>
                 <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">Shipping Costs</h2>
                 <p>
-                  Original shipping charges are non-refundable. For defective or damaged items, we'll cover the return shipping costs.
+                  Original shipping charges are non-refundable. For defective or damaged items, we&apos;ll cover the return shipping costs.
                 </p>
               </section>
 

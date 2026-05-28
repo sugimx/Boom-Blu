@@ -19,7 +19,7 @@ export default function ShippingPage() {
               <section>
                 <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">Shipping Policy</h2>
                 <p>
-                  At Boom Blu, we're committed to delivering your products quickly and safely. We ship across India with reliable courier partners to ensure your washing liquid arrives in perfect condition.
+                  At Boom Blu, we&apos;re committed to delivering your products quickly and safely. We ship across India with reliable courier partners to ensure your washing liquid arrives in perfect condition.
                 </p>
               </section>
 
@@ -55,7 +55,7 @@ export default function ShippingPage() {
               <section>
                 <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">Tracking Your Order</h2>
                 <p>
-                  Once your order is dispatched, you'll receive a tracking ID via email and SMS. You can track your shipment in real-time on our website or through the courier partner's app.
+                  Once your order is dispatched, you&apos;ll receive a tracking ID via email and SMS. You can track your shipment in real-time on our website or through the courier partner&apos;s app.
                 </p>
               </section>
 
@@ -72,14 +72,14 @@ export default function ShippingPage() {
               <section>
                 <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">Processing Time</h2>
                 <p>
-                  Orders are processed within 24-48 hours of confirmation. You'll receive a shipment notification once your order leaves our warehouse.
+                  Orders are processed within 24-48 hours of confirmation. You&apos;ll receive a shipment notification once your order leaves our warehouse.
                 </p>
               </section>
 
               <section>
                 <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">What Happens if Delivery is Delayed?</h2>
                 <p>
-                  In case of unexpected delays, our customer support team will contact you immediately. For delays beyond 7 business days (standard shipping), you're eligible for a full refund or free express re-shipment.
+                  In case of unexpected delays, our customer support team will contact you immediately. For delays beyond 7 business days (standard shipping), you&apos;re eligible for a full refund or free express re-shipment.
                 </p>
               </section>
 
@@ -94,7 +94,7 @@ export default function ShippingPage() {
                   <li>Date and time of delivery</li>
                 </ul>
                 <p className="mt-3">
-                  We'll send you a replacement or issue a full refund within 48 hours of receiving your claim.
+                  We&apos;ll send you a replacement or issue a full refund within 48 hours of receiving your claim.
                 </p>
               </section>
 

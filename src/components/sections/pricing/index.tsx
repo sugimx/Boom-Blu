@@ -15,7 +15,7 @@ export default function PricingSection() {
             Simple, Transparent Pricing for Everyone
           </h2>
           <p className="max-w-xl mx-auto leading-6 text-gray-500 dark:text-gray-400">
-            Choose the perfect size for your laundry needs. Whether you're an individual or running a business, we have the right solution for you with unbeatable value and quality.
+            Choose the perfect size for your laundry needs. Whether you&apos;re an individual or running a business, we have the right solution for you with unbeatable value and quality.
           </p>
         </div>
 
