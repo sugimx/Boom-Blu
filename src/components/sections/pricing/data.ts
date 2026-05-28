@@ -1,13 +1,8 @@
 export const BILLING_PERIODS = [
   {
-    label: 'One Time',
+    label: 'One Time Purchase',
     key: 'monthly',
     saving: null,
-  },
-  {
-    label: 'Subscribe & Save',
-    key: 'yearly',
-    saving: '10%',
   },
 ] as const;
 
@@ -69,9 +64,9 @@ export const BILLING_PLANS = [
         stripeId: process.env.NEXT_PUBLIC_PLUS_MONTHLY_PRICE_ID!,
       },
       yearly: {
-        amount: AMOUNTS['medium']['yearly'],
-        formattedPrice: '₹' + AMOUNTS['medium']['yearly'],
-        stripeId: process.env.NEXT_PUBLIC_PLUS_YEARLY_PRICE_ID!,
+        amount: AMOUNTS['medium']['monthly'],
+        formattedPrice: '₹' + AMOUNTS['medium']['monthly'],
+        stripeId: process.env.NEXT_PUBLIC_PLUS_MONTHLY_PRICE_ID!,
       },
     },
     features: [
@@ -80,9 +75,8 @@ export const BILLING_PLANS = [
       'Better value per wash',
       'Works for machine & hand wash',
       'Maintains fabric softness',
-      'Subscribe for 10% savings',
     ],
-    cta: 'Subscribe Now',
+    cta: 'Buy Now',
     popular: true,
   },
   {
@@ -96,9 +90,9 @@ export const BILLING_PLANS = [
         stripeId: process.env.NEXT_PUBLIC_PRO_MONTHLY_PRICE_ID!,
       },
       yearly: {
-        amount: AMOUNTS['large']['yearly'],
-        formattedPrice: '₹' + AMOUNTS['large']['yearly'],
-        stripeId: process.env.NEXT_PUBLIC_PRO_YEARLY_PRICE_ID!,
+        amount: AMOUNTS['large']['monthly'],
+        formattedPrice: '₹' + AMOUNTS['large']['monthly'],
+        stripeId: process.env.NEXT_PUBLIC_PRO_MONTHLY_PRICE_ID!,
       },
     },
     features: [
@@ -107,9 +101,9 @@ export const BILLING_PLANS = [
       'Best value per wash',
       'Powerful stain removal',
       'Long-lasting fragrance',
-      'Priority support',
+      'Bulk purchase discount available',
     ],
-    cta: 'Subscribe Now',
+    cta: 'Buy Now',
     popular: false,
   },
   {

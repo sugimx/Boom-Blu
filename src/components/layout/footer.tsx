@@ -204,38 +204,38 @@ export default function Footer() {
               <div className="grid sm:grid-cols-3 gap-7">
                 <div>
                   <span className="block mb-6 text-sm text-gray-400">
-                    Services
+                    Sections
                   </span>
                   <nav className="flex flex-col space-y-3">
                     <Link
-                      href="/"
+                      href="#"
                       className="text-sm font-normal text-gray-400 transition hover:text-white"
                     >
-                      Status
+                      Home
                     </Link>
                     <Link
-                      href="/pricing"
+                      href="#features"
+                      className="text-sm font-normal text-gray-400 transition hover:text-white"
+                    >
+                      Features
+                    </Link>
+                    <Link
+                      href="#benefits"
+                      className="text-sm font-normal text-gray-400 transition hover:text-white"
+                    >
+                      Product
+                    </Link>
+                    <Link
+                      href="#pricing"
                       className="text-sm font-normal text-gray-400 transition hover:text-white"
                     >
                       Pricing
                     </Link>
                     <Link
-                      href="/pricing#faq"
+                      href="#faq"
                       className="text-sm font-normal text-gray-400 transition hover:text-white"
                     >
                       FAQ
-                    </Link>
-                    <Link
-                      href="/contact"
-                      className="text-sm font-normal text-gray-400 transition hover:text-white"
-                    >
-                      Help Docs
-                    </Link>
-                    <Link
-                      href="/privacy"
-                      className="text-sm font-normal text-gray-400 transition hover:text-white"
-                    >
-                      Privacy Policy
                     </Link>
                   </nav>
                 </div>
@@ -278,33 +278,45 @@ export default function Footer() {
                 </div> */}
                 <div>
                   <span className="relative block mb-6 text-sm text-gray-400">
-                    Account
+                    Pages
                   </span>
                   <nav className="flex flex-col space-y-3">
-                    <Link
-                      href="/signin"
-                      className="text-sm font-normal text-gray-400 transition hover:text-white"
-                    >
-                      Login
-                    </Link>
-                    <Link
-                      href="/signup"
-                      className="text-sm font-normal text-gray-400 transition hover:text-white"
-                    >
-                      Sign Up
-                    </Link>
-                    <Link
-                      href="/reset-password"
-                      className="text-sm font-normal text-gray-400 transition hover:text-white"
-                    >
-                      Reset Password
-                    </Link>
                     <Link
                       href="/contact"
                       className="text-sm font-normal text-gray-400 transition hover:text-white"
                     >
-                      Support
+                      Contact
                     </Link>
+                    {/* <Link
+                      href="/about"
+                      className="text-sm font-normal text-gray-400 transition hover:text-white"
+                    >
+                      About Us
+                    </Link> */}
+                    <Link
+                      href="/terms"
+                      className="text-sm font-normal text-gray-400 transition hover:text-white"
+                    >
+                      Terms of Service
+                    </Link>
+                    <Link
+                      href="/shipping"
+                      className="text-sm font-normal text-gray-400 transition hover:text-white"
+                    >
+                      Shipping & Delivery
+                    </Link>
+                    <Link
+                      href="/returns"
+                      className="text-sm font-normal text-gray-400 transition hover:text-white"
+                    >
+                      Returns and Cancellations
+                    </Link>
+                    {/* <Link
+                      href="/privacy-policy"
+                      className="text-sm font-normal text-gray-400 transition hover:text-white"
+                    >
+                      Privacy Policy
+                    </Link> */}
                   </nav>
                 </div>
               </div>

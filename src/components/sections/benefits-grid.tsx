@@ -16,7 +16,52 @@ export default function BenefitsGrid() {
         </div>
         <div className="max-w-[1008px] mx-auto">
           <div className="grid lg:grid-cols-12 gap-8">
-            <div className="lg:col-span-6">
+            {/* <div className="lg:col-span-4">
+              <div className="bg-gradient-to-br from-primary-500/20 to-primary-500/5 rounded-[20px] p-8 h-full border border-primary-500/30">
+                <div className="mb-6">
+                  <div className="w-12 h-12 rounded-lg bg-primary-500/20 flex items-center justify-center mb-4">
+                    <svg className="w-6 h-6 text-primary-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+                    </svg>
+                  </div>
+                  <h3 className="font-bold text-white text-lg mb-2">Powerful Cleaning</h3>
+                  <p className="text-sm text-white/70">
+                    Advanced formula removes stubborn dirt, sweat marks, and oil stains with ease. Perfect for everyday tough laundry challenges.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="lg:col-span-4">
+              <div className="bg-gradient-to-br from-primary-500/20 to-primary-500/5 rounded-[20px] p-8 h-full border border-primary-500/30">
+                <div className="mb-6">
+                  <div className="w-12 h-12 rounded-lg bg-primary-500/20 flex items-center justify-center mb-4">
+                    <svg className="w-6 h-6 text-primary-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                    </svg>
+                  </div>
+                  <h3 className="font-bold text-white text-lg mb-2">Long-Lasting Freshness</h3>
+                  <p className="text-sm text-white/70">
+                    Enjoy fresh-scented clothes that last throughout the day. Our formula leaves garments smelling amazing even after multiple washes.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="lg:col-span-4">
+              <div className="bg-gradient-to-br from-primary-500/20 to-primary-500/5 rounded-[20px] p-8 h-full border border-primary-500/30">
+                <div className="mb-6">
+                  <div className="w-12 h-12 rounded-lg bg-primary-500/20 flex items-center justify-center mb-4">
+                    <svg className="w-6 h-6 text-primary-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                  </div>
+                  <h3 className="font-bold text-white text-lg mb-2">Fabric Protection</h3>
+                  <p className="text-sm text-white/70">
+                    Gentle yet effective. Our formula protects your fabrics while delivering powerful cleaning, keeping clothes looking new longer.
+                  </p>
+                </div>
+              </div>
+            </div> */}
+            {/* <div className="lg:col-span-6">
               <div className="relative flex flex-col justify-between bg-primary-500 rounded-[20px] p-9 md:p-13">
                 <div className="max-w-sm mb-32">
                   <h3 className="font-bold text-white text-2xl md:text-3xl mb-4">
@@ -189,27 +234,46 @@ export default function BenefitsGrid() {
                   </p>
                 </div>
               </div>
-            </div>
+            </div> */}
             <div className="lg:col-span-12">
               <div className="lg:px-12 p-8 bg-[#2D0B70] lg:pb-0 lg:p-12 relative rounded-[20px] h-full lg:flex lg:flex-row justify-between bg-cover flex-col gap-5">
                 <div className="max-w-sm relative z-10">
                   <h3 className="font-bold text-white text-2xl md:text-3xl mb-4">
-                    Overcome Writers Block Today
+                    Why Boom Blu Stands Out
                   </h3>
-                  <p className="text-base text-white/70 mb-8">
-                    Discover the cutting-edge AI tools that bring your ideas to
-                    life with exceptional accuracy.
+                  <p className="text-base text-white/70 mb-4">
+                    Experience the perfect blend of cleaning power and fabric care. Boom Blu is specially formulated with advanced ingredients that tackle tough stains while being gentle on your favorite clothes.
                   </p>
+                  <ul className="space-y-3 mb-8">
+                    <li className="flex items-start text-white/80">
+                      <svg className="w-5 h-5 text-primary-500 mr-3 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                        <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                      </svg>
+                      <span className="text-sm">Removes tough stains in first wash</span>
+                    </li>
+                    <li className="flex items-start text-white/80">
+                      <svg className="w-5 h-5 text-primary-500 mr-3 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                        <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                      </svg>
+                      <span className="text-sm">Safe for all fabric types</span>
+                    </li>
+                    <li className="flex items-start text-white/80">
+                      <svg className="w-5 h-5 text-primary-500 mr-3 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                        <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                      </svg>
+                      <span className="text-sm">Eco-friendly and biodegradable</span>
+                    </li>
+                  </ul>
                   <Link
-                    href="/email-generator"
+                    href="/"
                     className="font-medium inline-block text-sm text-white rounded-full bg-primary-500 hover:bg-primary-600 transition py-3 px-6"
                   >
-                    Try it now for Free
+                    Shop Now
                   </Link>
                 </div>
                 <div>
                   <Image
-                    src="/images/benefits/bn-3.svg"
+                    src="/product_bg.png"
                     className="hidden lg:block relative z-10"
                     alt=""
                     width={359}

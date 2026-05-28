@@ -6,9 +6,9 @@ export default function HeroLogos() {
     <div className="wrapper">
       <div className="max-w-[1016px] relative z-30 mx-auto pt-14 pb-16">
         <p className="text-center text-white/50 text-lg font-medium">
-          Trusted by worlds largest companies including...
+          Trusted by thousands of households across India
         </p>
-        <div className="flex flex-wrap justify-center items-center gap-7 md:gap-14 mt-10">
+        {/* <div className="flex flex-wrap justify-center items-center gap-7 md:gap-14 mt-10">
           <Image
             src="/images/brands/br-1.svg"
             className="opacity-50 transition hover:opacity-100"
@@ -58,7 +58,7 @@ export default function HeroLogos() {
             height={32}
             alt=""
           />
-        </div>
+        </div> */}
       </div>
     </div>
   );
