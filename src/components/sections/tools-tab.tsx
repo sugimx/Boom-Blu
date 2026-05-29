@@ -11,6 +11,7 @@ import {
   VideoGeneratorIcon,
 } from '@/icons/icons';
 import Image from 'next/image';
+import Link from 'next/link';
 import { cn } from '@/lib/utils';
 
 // Define the tab type
@@ -162,9 +163,9 @@ export default function AIToolsTabs() {
               <p className="max-w-xl mx-auto mb-6 text-sm text-gray-500 dark:text-gray-400">
                 {currentTab.description}
               </p>
-              <button className="px-6 py-3 text-sm font-medium text-white transition-colors rounded-full bg-primary-500 hover:bg-primary-600">
+              <Link href="/#pricing" className="inline-block px-6 py-3 text-sm font-medium text-white transition-colors rounded-full bg-primary-500 hover:bg-primary-600">
                 Try it now for free
-              </button>
+              </Link>
             </div>
           </div>
         </div>

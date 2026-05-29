@@ -1,18 +1,10 @@
 'use client';
 
-import FsLightbox from 'fslightbox-react';
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import { createPortal } from 'react-dom';
 
-const videoUrl = 'https://www.youtube.com/watch?v=_iHmNaQBtKk';
-
 export function IntroVideo() {
-  const [isMounted, setIsMounted] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
-
-  useEffect(() => {
-    setIsMounted(true);
-  }, []);
 
   return (
     <>
@@ -37,9 +29,39 @@ export function IntroVideo() {
         Watch Intro Video
       </button>
 
-      {isMounted &&
+      {isOpen &&
         createPortal(
-          <FsLightbox toggler={isOpen} sources={[videoUrl]} />,
+          <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/80">
+            <button
+              onClick={() => setIsOpen(false)}
+              className="absolute top-4 right-4 text-white hover:text-gray-300 z-50"
+            >
+              <svg
+                className="w-8 h-8"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M6 18L18 6M6 6l12 12"
+                />
+              </svg>
+            </button>
+            <div className="relative w-full h-full max-w-4xl max-h-96 flex items-center justify-center">
+              <iframe
+                src="https://player.cloudinary.com/embed/?cloud_name=dh03yacoi&public_id=Modern_washing_liquid_bottle_with_vibrant_blue_packaging_and_water_splash_effects_fresh_clean_clothes_floating_in_bright_light_sparkling_bubbles_and_water_droplets_stain_removal_demonstration_showing_before_and_p6kz6k&autoplay=true&loop=true&muted=true&controls=false"
+                width="640"
+                height="360"
+                style={{ height: 'auto', width: '100%', aspectRatio: '640 / 360' }}
+                allow="autoplay; fullscreen; encrypted-media; picture-in-picture"
+                allowFullScreen
+                frameBorder="0"
+              ></iframe>
+            </div>
+          </div>,
           document.body
         )}
     </>

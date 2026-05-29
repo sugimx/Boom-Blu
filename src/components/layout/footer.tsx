@@ -324,24 +324,28 @@ export default function Footer() {
             <div className="lg:col-span-3">
               <div>
                 <span className="block mb-6 text-sm text-gray-400">
-                  Stay In Touch
+                  Contact Us
                 </span>
-                <p className="block mb-5 text-sm text-gray-400">
-                  Subscribe now for exclusive insights and offers!
-                </p>
-                <form>
-                  <div className="flex flex-col items-center gap-2 w-full sm:max-w-64">
-                    <input
-                      type="email"
-                      placeholder="Enter your email"
-                      className="w-full h-12 p-4 text-sm text-white border border-gray-700 rounded-full placeholder:text-center placeholder:text-gray-400 placeholder:text-sm text-center placeholder:font-normal focus:outline-0"
-                      required
-                    />
-                    <button className="w-full px-6 py-3 text-sm font-medium text-white transition rounded-full cursor-pointer bg-primary-500 hover:bg-primary-600">
-                      Subscribe Now
-                    </button>
+                <nav className="flex flex-col space-y-4">
+                  <div>
+                    <p className="text-xs text-gray-500 mb-1">Email</p>
+                    <a
+                      href="mailto:info@sugimx.com"
+                      className="text-sm font-normal text-gray-400 transition hover:text-white"
+                    >
+                      info@sugimx.com
+                    </a>
                   </div>
-                </form>
+                  <div>
+                    <p className="text-xs text-gray-500 mb-1">Phone</p>
+                    <a
+                      href="tel:+919489519652"
+                      className="text-sm font-normal text-gray-400 transition hover:text-white"
+                    >
+                      +91 94895 19652
+                    </a>
+                  </div>
+                </nav>
               </div>
             </div>
           </div>

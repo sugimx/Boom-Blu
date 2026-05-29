@@ -265,7 +265,7 @@ export default function BenefitsGrid() {
                     </li>
                   </ul>
                   <Link
-                    href="/"
+                    href="/#pricing"
                     className="font-medium inline-block text-sm text-white rounded-full bg-primary-500 hover:bg-primary-600 transition py-3 px-6"
                   >
                     Shop Now
