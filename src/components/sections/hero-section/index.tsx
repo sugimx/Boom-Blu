@@ -105,36 +105,36 @@ export default function HeroSection() {
           </div>
         </div>
 
-        <div className="max-[1100px]:hidden">
+        {/* <div className="max-[1100px]:hidden">
           <Image
-            src="/images/hero/shape-left-1.svg"
+            src="/hero/left-1.svg"
             className="absolute top-14 left-16 floating-1"
             alt=""
             width={170}
             height={44}
           />
           <Image
-            src="/images/hero/shape-left-2.svg"
+            src="/hero/left-2.svg"
             className="absolute left-[145px] top-[298px] floating-2 max-[1240px]:left-[80px]"
             alt=""
             width={181}
             height={44}
           />
           <Image
-            src="/images/hero/shape-right-1.svg"
+            src="/hero/right-1.svg"
             className="absolute right-16 top-[108px] floating-3"
             alt=""
             width={176}
             height={44}
           />
           <Image
-            src="/images/hero/shape-right-2.svg"
+            src="/hero/right-2.svg"
             className="absolute top-[316px] right-[200px] floating-4 max-[1240px]:right-[80px] max-[1350px]:right-[150px] max-[1500px]:right-[200px]"
             alt=""
             width={179}
             height={44}
           />
-        </div>
+        </div> */}
       </div>
       <div className="hero-glow-bg pointer-events-none w-full h-167.5 absolute z-10 bottom-0"></div>
       <HeroLogos />
