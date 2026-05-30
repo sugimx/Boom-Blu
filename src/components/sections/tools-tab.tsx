@@ -34,8 +34,8 @@ export default function AIToolsTabs() {
       id: 'stains',
       label: 'Stain Removal',
       icon: <TextGeneratorIcon className="w-8 h-8" />,
-      lightImage: '/tab-image-1.png',
-      darkImage: '/tab-image-1.png',
+      lightImage: '/tab-image-4.png',
+      darkImage: '/tab-image-4.png',
       title: 'Powerful Stain Removal',
       description:
         'Boom Blu removes dirt, sweat marks, oil stains, and everyday stains effectively. Works on tough marks from the first wash. Apply directly on stains, let sit for a few minutes, then wash for best results.',
@@ -44,8 +44,8 @@ export default function AIToolsTabs() {
       id: 'fragrance',
       label: 'Fresh Fragrance',
       icon: <ImageGeneratorIcon className="w-8 h-8" />,
-      lightImage: '/tab-image-2.png',
-      darkImage: '/tab-image-2.png',
+      lightImage: '/tab-image-1.png',
+      darkImage: '/tab-image-1.png',
       title: 'Long-Lasting Fresh Fragrance',
       description:
         'Leaves clothes smelling fresh and clean for a longer time. The signature Boom Blu fragrance is pleasant and not overpowering. Freshness that stays with every wear throughout your day.',
@@ -54,8 +54,8 @@ export default function AIToolsTabs() {
       id: 'gentle',
       label: 'Gentle Care',
       icon: <CodeGeneratorIcon className="w-8 h-8" />,
-      lightImage: '/tab-image-3.png',
-      darkImage: '/tab-image-3.png',
+      lightImage: '/tab-image-2.png',
+      darkImage: '/tab-image-2.png',
       title: 'Gentle on Clothes & Fabric',
       description:
         'Designed to protect fabric quality and maintain softness after every wash. Keeps colors bright and fabrics feeling new. Suitable for all fabric types including delicates.',
@@ -64,8 +64,8 @@ export default function AIToolsTabs() {
       id: 'versatile',
       label: 'Works Everywhere',
       icon: <VideoGeneratorIcon className="w-8 h-8" />,
-      lightImage: '/tab-image-4.png',
-      darkImage: '/tab-image-4.png',
+      lightImage: '/tab-image-3.png',
+      darkImage: '/tab-image-3.png',
       title: 'Machine & Hand Wash',
       description:
         'Works perfectly for top-load and front-load washing machines, as well as hand washing. Mix with water, soak clothes for 10-15 minutes, wash gently, and rinse thoroughly.',
